@@ -1,0 +1,22 @@
+generate a loan in json with borrower with loanDetails with a disbursementDate date and credit
+have 30% of loans with creditScore above 600 and creditExposure below 0.40
+where:
+borrower has a random loanId like L123456
+borrower has a random firstName,
+borrower has a random lastName,
+borrower has a email,
+borrower has a phone,
+borrower has a address,
+borrower has a random dob type date,
+loanDetails has a random loanAmount between 20000 and 5000,
+loanDetails has a loanType is Auto Loan,
+loanDetails has a termMonths is 24 months or 36 months,
+loanDetails has an random applicationDate 2023-04-15",
+a random disbursementDate": "2023-05-01",
+credit has a random creditScore between 400 and 820,
+credit has a creditHistory of CCCCCCCCCCCCCCCCCC,
+credit has a random creditExposure between 0.28 and 0.90,
+credit has a random monthlyIncome between 3000 and 9000,
+
+
+generate python code to create above 10 json object
