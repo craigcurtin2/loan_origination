@@ -1,0 +1,27 @@
+[
+    {
+        "loanId": "L12345",
+        "borrower": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "johndoe@example.com",
+            "phone": "+1 (555) 123-4567",
+            "address": "123 Main Street, Anytown, 10000 USA",
+            "dob": "01/01/1900"
+        },
+        "loanDetails": {
+            "loanAmount": 50000,
+            "loanType": "Personal Loan",
+            "interestRate": 5.25,
+            "termMonths": 36,
+            "applicationDate": "2023-04-15",
+            "approvalDate": "2023-04-20",
+            "approvedBy": "Loan Officer A"
+        },
+        "status": "Approved",
+        "ficoScore": 650,
+        "disbursementDate": "2023-05-01",
+        "firstDueDate": "2023-06-01",
+        "firstPaymentAmount": 1500
+    }
+]

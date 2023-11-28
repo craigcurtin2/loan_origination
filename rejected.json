@@ -1,0 +1,17 @@
+[
+  {
+    "loanId": "L12345",
+    "borrower": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "ssn": "123-45-6789",
+      "email": "johndoe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Main Street, Anytown, 10000 USA",
+            "dob" : "01/01/1900"
+    },
+    "status": "Rejected",
+    "ficoScore": 510,
+   "Reason": "Bad credit score"
+  }
+]
