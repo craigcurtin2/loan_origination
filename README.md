@@ -18,10 +18,11 @@ extracts attributes from the Loan Origination JSON, credit_score (aka fico), cre
 | if credit_score > MINIMUM_CREDIT_SCORE | __Approved__ |
 | if credit_utilization < MAXIMUM_CREDIT_UTILIZATION | __Approved__ |
 | if monthly_income > MINIMUM_MONTHLY_INCOME | __Approved__ |
+| if above rules fail ... | __Rejected__ |
 
 if above 'test/rules' do not pass, JSON "Reason" is populated and Loan is __Rejected__
 
-file name is /tmp/\<LoanID>_accepted.json or /tmp/\<LoanID>_rejected.json
+file name is **/tmp/\<LoanID>_accepted.json** or **/tmp/\<LoanID>_rejected.json**
 
 ```
 $ python loan_process.py      
