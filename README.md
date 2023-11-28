@@ -1,6 +1,6 @@
 
 # loan_origination.py 
-Generates Loan Origination JSON object, stores in directory (-d /tmp/). JSON files are unique LoanID for running many times (uses Linux epoc timestamp)
+Generates Loan Origination JSON object, stores in directory (-d /tmp/). JSON files are unique LoanID for running many times (uses [Linux epoc](https://www.epochconverter.com/) timestamp)
 
 ```
 $ python loan_origination.py -d /tmp/ -n 100    # note: tested on macos ... windows path separator may cause issue
